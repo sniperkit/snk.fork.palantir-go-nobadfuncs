@@ -1,5 +1,8 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 working_dir: &working_dir
-  working_directory: /go/src/github.com/palantir/go-nobadfuncs
+  working_directory: /go/src/github.com/sniperkit/snk.fork.palantir-go-nobadfuncs
 
 go-version: &go-version
   run: go version

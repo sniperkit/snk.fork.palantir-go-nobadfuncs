@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -29,10 +34,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/palantir/go-nobadfuncs/nobadfuncs"
+	"github.com/sniperkit/snk.fork.palantir-go-nobadfuncs/nobadfuncs"
 )
 
-const currPkgName = "github.com/palantir/go-nobadfuncs/nobadfuncs"
+const currPkgName = "github.com/sniperkit/snk.fork.palantir-go-nobadfuncs/nobadfuncs"
 
 func TestPrintFuncRefUsages(t *testing.T) {
 	wd, err := os.Getwd()
